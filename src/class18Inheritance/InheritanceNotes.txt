@@ -1,0 +1,20 @@
+Inheritance in java is a mechanism in which one class acquires all the properties and behaviours/methods of parent class
+//except PRIVATE members (fields/methods) and constructors
+//you build upon existing classes that are similar
+//we can reuse bt word EXTENDS, and inherit properties methods of a class
+// inheritance represents IS a relationship.. (parent/child )
+
+ADVANTAGES                   -code re usability-takes less time,
+                             -application performance-less memory
+                             -execution time is less
+
+DISADVANTAGES               -using inheritance get tightly coupled
+                             -if parent class is changed all the subclasses are dependent on it
+
+4 types of inheritance:
+
+//1.single inheritance       -1 parent class and 1 subclass
+//2.multilevel inheritance   -1 grandparent class /then parent class then sub/child class
+//3.hierarchical inheritance -1 parent class with Multiple subclasses
+//4.multiple inheritance     -1 subclass and multiple parent classes -NOT SUPPORTED by classes IN JAVA (only interfaces)
+                              public class Child extends Parent1,Parent2{    }
